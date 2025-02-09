@@ -21,9 +21,12 @@ class zeroesinendoptimal
             {
                 System.out.println(array[i]);
             }
+
         }
 
         ArrayList<Integer> result = new ArrayList<Integer>();
+
+        j = 0;
         for(int i = j + 1;i < n;i++)
         {
             if(array[i] != 0)
@@ -36,7 +39,7 @@ class zeroesinendoptimal
 
         for(int i = 0;i < n;i++)
         {
-            System.out.println(array[i]);
+            System.out.println(result);
         }
     }
 }

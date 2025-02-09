@@ -7,6 +7,8 @@ class rotatebydposition
 
         int d = 3;
 
+        d = d % n;
+
         int temp[] = new int[d];
 
         for(int i = 0;i < d;i++)
